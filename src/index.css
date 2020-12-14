@@ -1,0 +1,116 @@
+*{
+    max-resolution: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+
+    background-color: rgb(0, 0, 0);
+}
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border-style: groove;
+    border-width: 43px;
+    border-color: rgb(85, 1, 1);
+
+}
+.c-player{
+    display: block;
+    background-color: rgb(109, 1, 1);
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding: 50px;
+    border-radius: 19px;
+    box-shadow: inset -6px -6px 12px black rgba(0,0 ,0,0.8),inset 6px 6px 12px gray rgba(255,255 ,255,0.3);
+
+}
+.c-player > h4{
+    color:white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 399;
+    text-align: center;
+}
+
+.c-player > p{
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+.c-player--details .details-img{
+    position: relative;
+    width: fit-content;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.c-player--details .details-img{
+    display: block;
+    margin:50px auto;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    max-width:250%;
+    border-radius:50%;
+    box-shadow:  6px 6px 12px black rgba(0,0 ,0,0.8), -6px -6px 12px  rgba(255,255 ,255,0.3);
+
+    
+}
+.c-player--details .details-title{
+    color: aliceblue;
+    font-size: 29px;
+    text-shadow:  2px 2px 4px black rgba(0,0 ,0,0.8), -2px -2px 4px  rgba(255,255 ,255,0.3);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.c-player--details .details-artist{
+    color:white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    text-shadow:  2px 2px 4px  rgba(0,0 ,0,0.8), -2px -2px 4px  rgba(255,255 ,255,0.3);
+
+}
+.c-player--controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.c-player--controls .play-btn{
+    display: flex;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    color: aliceblue;
+    font-size: 22px;
+    cursor: pointer;
+}
+.homey .Home-but{
+    align-items: center;
+    background-color: brown;
+}
+
+.c-player--controls .skip-btn{
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+    font-style: 18px;
+    color: rgb(20, 20, 20);
+    ;
+}
+.c-player--controls .skip-btn:hover{
+    font-style: 75px;
+    color: blue;
+    background-color: aliceblue;
+    font-size: 24px;
+}
